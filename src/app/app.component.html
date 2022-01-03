@@ -3,6 +3,6 @@
     <app-formulario (tareaCreada)="onTareaCreada($event)"></app-formulario>
   </div>
   <div class="derecha">
-    <app-lista></app-lista>
+    <app-lista [tareas]="arrayTareas"></app-lista>
   </div>
 </div>
